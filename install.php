@@ -4,10 +4,7 @@
 // This script is free - www.barrysmith.org
 // This Script is provided as is - Use at your own risk!
 
-LINK this to your mysql DB settings
-require_once('../config.php');
-
-
+	ADD your mysql connection settings in the line below. 
 
 	$db = mysql_connect(DB_HOSTNAME, DB_USERNAME, DB_PASSWORD) or die(mysql_error());
 	mysql_select_db(DB_DATABASE, $db) or die (mysql_error());
